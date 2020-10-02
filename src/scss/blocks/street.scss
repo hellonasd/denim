@@ -1,0 +1,62 @@
+.street__fashion {
+    padding-top: 73px;
+    
+}
+.fall_wrapp{
+    padding-top: 55px;
+    width: 323px;
+    height: 195px;
+    background-color: #F1F2F4;
+}
+.street__fall {
+    text-align: center;
+    padding-top: 23px;
+    
+    background-image: url('../../img/диагональ3.png');
+}
+.street__wrapp {
+    width: 936px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.street_img {
+    width: 561px;
+}
+
+.street__subtitle {
+    width: 283px;
+    margin: 0;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #727A82;
+}
+.street__title {
+    margin: 0;
+    width: 220px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+}
+.street__btn {
+    width: 157px;
+    height: 51px;
+    padding: 0px;
+    margin-right: 52px;
+    margin-top: 32px;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    font-size: 16px;
+    line-height: 19px;
+    
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: bold;
+}
+

@@ -1,0 +1,318 @@
+
+
+.header{
+    background-color: #f1f2f4;
+}
+.header__wrapper {
+    width: 1091px;
+
+    margin: 0 auto;
+    display: grid;
+    display: grid;
+    grid-template-rows: 501px;
+    grid-template-columns: 146px 342px 426px 178px;
+}
+
+.header__woman {
+    width: 347px;
+    height: 410px;
+}
+
+.nimes {
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "WorkSans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 26px;
+}
+.header__menu {
+    padding: 0px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header__arrow {
+    position: absolute;
+    top: 432px;
+    left: 56px;
+}
+
+.header__items {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: "WorkSans";
+    font-style: normal;
+    padding: 38px 0 0 59px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+}
+.header__item {
+    padding-bottom: 18px;
+}
+
+.header__text {
+    padding-top: 151px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.header__subtitle {
+    margin: 0;
+    padding-top: 1px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    width: 211px;
+    padding-left: 8px;
+    padding-top: 2px;
+}
+.header__title {
+    margin: 0px;
+    padding-left: 30px;
+    font-family: "Anton";
+    font-weight: 400;
+    font-size: 105px;
+    line-height: 108px;
+}
+.header__check {
+    width: 175px;
+    height: 53px;
+    margin-top: 29px;
+    margin-left: 68px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: -1px;
+    background-color: #151c22;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    padding: 0;
+}
+
+.header__imgs {
+    position: relative;
+}
+.header__diagtop {
+    position: absolute;
+    width: 188px;
+    padding-left: 5px;
+    top: 4px;
+    height: 142px;
+}
+.header__womanimg {
+    z-index: 10;
+    width: 345px;
+    height: 414px;
+    position: absolute;
+    left: 45px;
+    top: 44px;
+}
+.header__diagbottom {
+    position: absolute;
+    width: 185px;
+    top: 359px;
+    height: 138px;
+    left: 245px;
+}
+
+.header__tools {
+    display: grid;
+
+}
+.header-tools__wrapper {
+    position: relative;
+}
+.header__basket {
+    position: absolute;
+    top: 41px;
+    left: 80px;
+}
+.header__search {
+    position: absolute;
+    top: 84px;
+    right: 75px;
+}
+.header__links {
+    position: relative;
+}
+.header__facebook {
+    position: absolute;
+    top: 160px;
+    left: 47px;
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+}
+.instagram {
+    position: absolute;
+    top: 197px;
+    left: 45px;
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 769px) {
+    .header {
+        background-color: #f1f2f4;
+        
+    }
+    .header__wrapper {
+        display: flex;
+        height: 544px;
+        width: 768px;
+    }
+    .header__denim {
+        width: 300px;
+        margin-top: 157px;
+        margin-left: -118px;
+    }
+    .header__nav {
+        width: 216px;
+    }
+    .nimes {
+        text-align: center;
+        margin: 0px;
+        background-color: white;
+        margin-top: 14px;
+    }
+    .header__menu {
+        height: 100px;
+        padding-top: 36px;
+        padding-left: 32px;
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 19px;
+    }
+
+    .header__arrow {
+        position: absolute;
+        top: 523px;
+        right: 0px;
+        left: 44px;
+    }
+
+    .header__items {
+        display: flex;
+
+        justify-content: space-around;
+
+        padding: 0;
+
+        margin: 0;
+    }
+    .header__item {
+        list-style: none;
+    }
+
+    .header__text {
+        line-height: 57px;
+    }
+    .header__subtitle {
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        margin: 0px;
+        margin-bottom: 12px;
+    }
+    .header__title {
+        font-family: "Anton";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 96px;
+
+        margin: 0;
+
+        padding-right: 81px;
+    }
+    .header__check {
+        margin-top: 68px;
+
+        width: 221px;
+
+        border: none;
+
+        height: 66px;
+
+        background-color: black;
+
+        color: white;
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 19px;
+    }
+
+    .header__imgs {
+        position: relative;
+        margin-top: 98px;
+    }
+    .header__diagtop {
+        width: 141px;
+        height: 104px;
+        position: absolute;
+        top: -28px;
+        right: 155px;
+        z-index: 1;
+    }
+    .header__womanimg {
+        width: 264px;
+        height: 322px;
+        position: inherit;
+        z-index: 200;
+    }
+    .header__diagbottom {
+        width: 141px;
+        height: 104px;
+        bottom: 98px;
+        position: absolute;
+        right: -29px;
+        z-index: 1;
+    }
+
+    .header__tools {
+        position: relative;
+    }
+    .header-tools__wrapper {
+        position: absolute;
+        top: 53px;
+        right: 175px;
+        left: -42px;
+    }
+    .header__basket {
+        position: absolute;
+
+        left: 50px;
+    }
+    .header__search {
+        left: -2px;
+        position: absolute;
+    }
+    .header__links {
+        display: flex;
+        position: absolute;
+        top: 481px;
+    }
+    .header__facebook {
+        position: absolute;
+        left: -38px;
+        color: black;
+        text-decoration: none;
+    }
+    .instagram {
+        position: absolute;
+        right: 65px;
+        color: black;
+        text-decoration: none;
+    }
+}

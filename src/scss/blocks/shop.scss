@@ -1,0 +1,50 @@
+.nemis__shop {
+    padding-top: 90px;
+}
+.nemis__top {
+    width: 939px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.nemise__best {
+    margin: 0px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+}
+.nemis__viewall {
+    color: black;
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+.nemis__items_wrapp {
+    padding-top: 45px;
+    width: 936px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 241px 238px 238px 210px;
+}
+.nemis__item {
+    height: 362px;
+}
+.nemis__img {
+    width: 215px;
+    height: 281px;
+}
+.nemis__name {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.nemis__name_price {
+    padding-top: 10px;
+    width: 54px;
+}

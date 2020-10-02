@@ -1,0 +1,43 @@
+.shop {
+    padding-top: 55px;
+}
+.shop__wrapper {
+    width: 936px;
+    display: grid;
+    grid-template-columns: 241px 239px 239px 217px;
+    margin: 0 auto;
+}
+.shop__top {
+    padding-bottom: 17px;
+    width: 939px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.shop__viewall {
+    color: #000;
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+
+.shop__img {
+    width: 215px;
+    height: 276px;
+    &.small {
+        height: 230px;
+    }
+}
+.shop__name {
+    margin: 0px;
+}
+
+.shop__category {
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+}
