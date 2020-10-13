@@ -37,7 +37,7 @@
     height: 281px;
 }
 .nemis__name {
-    font-family: 'Work Sans';
+    font-family: "Work Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -47,4 +47,38 @@
 .nemis__name_price {
     padding-top: 10px;
     width: 54px;
+}
+
+@media (max-width: 769px) {
+    .nemis__top {
+        width: 680px;
+    }
+    .nemis__viewall{
+        font-size: 21px;
+    }
+    .nemise__best{
+        font-size: 34px;
+    }
+    
+    .nemis__items_wrapp {
+        padding-top: 56px;
+        width: 680px;
+        grid-template-rows: 462px 450px;
+        grid-template-columns: 355px 325px;
+    }
+    .nemis__img {
+        width: 325px;
+        height: 350px;
+    }
+    .nemis__name{
+        font-size: 23px;
+    }
+    .nemis__name_price{
+        padding-top: 16px;
+        width : 64px;
+    }
+    .nemis__price{
+        font-size: 22px;
+    }
+    
 }

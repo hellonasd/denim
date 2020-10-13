@@ -1,18 +1,17 @@
 .street__fashion {
     padding-top: 73px;
-    
 }
-.fall_wrapp{
+.fall_wrapp {
     padding-top: 55px;
     width: 323px;
     height: 195px;
-    background-color: #F1F2F4;
+    background-color: #f1f2f4;
 }
 .street__fall {
     text-align: center;
     padding-top: 23px;
-    
-    background-image: url('../../img/диагональ3.png');
+
+    background-image: url("../../img/диагональ3.png");
 }
 .street__wrapp {
     width: 936px;
@@ -33,7 +32,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    color: #727A82;
+    color: #727a82;
 }
 .street__title {
     margin: 0;
@@ -54,9 +53,48 @@
     border: 0;
     font-size: 16px;
     line-height: 19px;
-    
+
     font-family: "Work Sans";
     font-style: normal;
     font-weight: bold;
 }
 
+@media (max-width: 769px) {
+    .street__fashion {
+        padding-top: 65px;
+    }
+    .street__wrapp {
+        width: 768px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 394px 289px;
+        padding-left: 46px;
+    }
+    .street_img {
+        width: 394px;
+        height: 284px;
+    }
+    .fall_wrapp {
+        padding-top: 46px;
+        width: 258px;
+    }
+
+    .street__subtitle {
+        line-height: 11px;
+        font-size: 22px;
+        width: 240px;
+    }
+
+    .street__title {
+        width: 141px;
+        font-size: 36px;
+        padding-top: 8px;
+        padding-left: 7px;
+    }
+    .street__btn {
+        width: 149px;
+        margin-right: 90px;
+        margin-top: 32px;
+        font-size: 19px;
+    }
+}
